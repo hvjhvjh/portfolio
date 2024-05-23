@@ -1,0 +1,195 @@
+@media (max-width: 1305px) {
+    .arrow{
+        display: none;
+    }
+    .menu {
+        margin-left: 30px;
+    }
+    .title-container {
+        margin-bottom: 165px;
+    }
+    #content {
+        height: 470px;
+    } 
+    #skills {
+        height: 550px;
+    } 
+    #portfolio {
+        height: 730px;
+    } 
+    #contact{
+        height: 400px;    
+    }
+    .line{
+        width: 300px;
+    }
+    .media-title, .main-title {
+        text-align: center;
+    }
+    .media-title {
+        margin-bottom: 30px;
+    }
+    .portfolio-container{
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .portfolio-text {
+        width: 100%;
+        height: auto;
+    }
+    .main-text1 {
+        text-align: center;
+    }
+    .img-items {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 960px) {
+    html {
+        text-align: center;
+    }
+    .arrow{
+        display: none;
+    }
+    .title-container {
+        margin: 35px auto;
+    }
+    .link-text {
+        margin: 65px auto;
+    }
+    .logo {
+        margin: 0 auto;
+    }
+    .main-title{
+        margin-bottom: 50px;
+    }
+    .all-content{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .boy{
+        height: 290px;
+        width: 300px;
+    }
+    .profile{
+        justify-content: space-around;
+        margin: 30px auto;
+        width: 520px;
+    }
+    #skills {
+        height: 830px;
+    }
+    .logo2 {
+        display: block;
+        cursor: pointer;
+        margin: 0;
+    }
+    .menu {
+        display: none;
+        width: 100px;
+        margin: 0;
+    }
+    .dropdown:hover .menu{
+        display: block;
+    }
+    .dropdown {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        position: absolute;
+    }
+    .nav-items {
+        background-color: #f4a43394;
+        display: block;
+        width: 100px;
+        text-align: center;
+        padding: 5px 0;
+        margin: 0;
+    }
+    .navigation {
+        flex-direction: row-reverse;
+        display: flex;
+        justify-content: flex-end;
+        width: 660px;
+        margin: 60px auto;
+    }
+}
+@media (max-width: 670px) {
+    .navigation, .back{
+        width: 90%;
+    }
+    .name, .name-project {
+        font-size: 30px;
+        margin: 0;
+    }
+    .main-text, .profile-name, .profile-text, .main-text1, .social-item, .text-lab{
+        font-size: 13px;
+        margin-top: 0;
+        line-height: 20px;
+    }
+    .main-title{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .footer-title {
+        padding-top: 20px;
+    }
+    hr{
+        height: 20px;
+    }
+    .line{
+        width: 200px;
+    }
+    .text, .link-text{
+        font-size: 20px;
+    }
+    .title-container{
+        margin-top: 0;
+    }
+    .nav-items {
+        font-size: 14px;
+        width: 80px;
+    }
+    .img-item1, .img-item4{
+        height: 54px;
+    }
+    .img-item2, .img-item3{
+        height: 143px;
+    }
+    .img-item1, .img-item3{
+        width: 150px;
+    }
+    .img-item2, .img-item4{
+        width: 115px;
+    }
+    .img-items{
+        width: 275px;
+        height: 210px;
+    }
+    .profile-container{
+        justify-content: space-around;
+        margin-left: 0;
+    }
+    .profile-container1{
+        margin-left: 10px;
+    }
+    .profile{
+        justify-content: normal;
+        width: 310px;
+    }
+    .social1 {
+        order: -1; 
+        margin: 200px 0 20px 0;
+        position: absolute;
+    }
+    #contact {
+        align-content: normal;
+    }
+    #portfolio {
+        height: 520px;
+    }
+}
